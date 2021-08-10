@@ -848,11 +848,11 @@
 			<key>MaxBIOSVersion</key>
 			<false/>
 			<key>MLB</key>
-			<string>C02435700CDFH31JC</string>
+			<string>ENTER HERE</string>
 			<key>ProcessorType</key>
 			<integer>0</integer>
 			<key>ROM</key>
-			<data>ABbLRe0a</data>
+			<data>EjRWVVVm</data>
 			<key>SpoofVendor</key>
 			<true/>
 			<key>SystemMemoryStatus</key>
@@ -860,9 +860,9 @@
 			<key>SystemProductName</key>
 			<string>MacBookPro11,1</string>
 			<key>SystemSerialNumber</key>
-			<string>C02N908LFH00</string>
+			<string>ENTER HERE</string>
 			<key>SystemUUID</key>
-			<string>69A4ADCE-A4DD-41B4-B123-D065E1DC15C5</string>
+			<string>ENTER HERE</string>
 		</dict>
 		<key>UpdateDataHub</key>
 		<true/>
