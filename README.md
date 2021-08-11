@@ -1,4 +1,4 @@
-# Lenovo-G580-2189-OpenCore
+# Lenovo-G580-OpenCore
 
 ### Before you give this EFI a try, make sure you read [this](#Generating-your-own-serial-and-Editing-ROM)!
 
@@ -10,7 +10,7 @@ Model | G580 Type 2189
 ------------- | ---------------
 CPU | Intel Core i5-3210M
 iGPU | Intel HD 4000
-dGPU | NVIDIA GT630M (disabled in BIOS)
+dGPU | NVIDIA GT 630M (disabled in BIOS)
 RAM | 8 GB DDR3
 WiFi | Broadcom BCM4313 (unsupported)
 Software | macOS 11.5.1 Big Sur
@@ -34,6 +34,23 @@ Software | macOS 11.5.1 Big Sur
 - SD card slot
 - Power Management
 - to be determined
+
+## BIOS settings
+
+***Configuration***
+
+* Wireless LAN: Enabled
+* SATA Controller Mode: AHCI
+* (If using a dGPU model) Graphics Device: UMA Graphic
+* Intel Virtual Technology: Enabled
+
+***Security***
+
+* Secure Boot: Disabled
+
+***Boot***
+
+* Boot Mode: UEFI / UEFI + Legacy
 
 ## How to install
 
@@ -59,13 +76,21 @@ https://user-images.githubusercontent.com/59102649/116117179-3ea51200-a6bc-11eb-
 
 You should also put in your ethernet adapter's MAC address into the ROM section.
 
+## Replacing the WiFi card
+
+To replace the stock unsupported WiFi card, you first have to remove the whitelist from the bios. Here's a tutorial: 
+
+[![IMAGE ALT TEXT](http://img.youtube.com/vi/BItGfpyyHnI/0.jpg)](http://www.youtube.com/watch?v=BItGfpyyHnI "Video Title")
+
+Recommended WiFi cards: Azureware AW-CE123H, Dell DW1550, Lenovo Lite-On WCBN606BH
+
 
 ## Credits
 
 Thanks to:
 
-* me
+* me and [SkyrilHD](https://github.com/SkyrilHD) (for making the EFI)
 * acidanthera (for making OpenCore and the kexts)
 * dortania (helping with their guide)
-* USBToolBox
-* and to our tester
+* USBToolBox (for their excellent USB mapping tool)
+* [PewDieMelon](https://github.com/PewDieMelon) (for being our tester)
