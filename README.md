@@ -1,5 +1,8 @@
 # Lenovo-G580-2189-OpenCore
 
+### Before you give this EFI a try, make sure you read [this](#Generating-your-own-serial-and-Editing-ROM)!
+
+This repo includes an OpenCore EFI for the G580 (Model Type 2189). For anyone having a diffrent model of this machine, we like to hear feedback in the issues page. It will **NOT** work on any of the Pentium models unless you upgrade the CPU to an Ivy Bridge i3 or higher (iX-3xxxM)
 
 Testing on:
 
@@ -14,11 +17,23 @@ Software | macOS 11.5.1 Big Sur
 
 ## What works?
 
-* to be determined
+- Audio
+- Battery readout
+- Boot
+- USB
+- Ethernet
+- GPU acceleration
+- Keyboard + Trackpad
+- Sleep
+- Brightness Control
+- Function Keys
+- to be determined
 
 ## What doesn't work?
 
-* to be determined
+- SD card slot
+- Power Management
+- to be determined
 
 ## How to install
 
@@ -32,7 +47,7 @@ There are two ways you can make a USB installer:
 
 2. If you are using Windows, use [macrecovery.py](https://dortania.github.io/OpenCore-Install-Guide/installer-guide/winblows-install.html) from the offical OpenCore release package.
 
-After you have created a bootable Installer, copy the EFI folder to the EFI partition and install as usual. After the installation, mount the EFI partition of the installed OS and copy the EFI folder to its partition.
+After you have created a bootable Installer, copy the EFI folder to the EFI partition of the installer drive and install as usual (GUID Partiton Map; APFS). After the installation, mount the EFI partition of the installed OS and copy the EFI folder to its partition.
 
 ## Generating your own serial and Editing ROM
 
