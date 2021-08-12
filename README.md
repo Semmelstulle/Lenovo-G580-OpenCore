@@ -27,13 +27,12 @@ Software | macOS 11.5.1 Big Sur
 - Sleep
 - Brightness Control
 - Function Keys
-- to be determined
+- Bluetooth
+- Power Management
 
 ## What doesn't work?
 
 - SD card slot
-- Power Management
-- to be determined
 
 ## BIOS settings
 
@@ -94,3 +93,4 @@ Thanks to:
 * dortania (helping with their guide)
 * USBToolBox (for their excellent USB mapping tool)
 * [PewDieMelon](https://github.com/PewDieMelon) (for being our tester)
+* [5T33Z0](https://www.hackintosh-forum.de/forum/thread/53009-guide-x86platformplugin-xcpm-f%C3%BCr-ivy-bridge-cpus-unter-catalina-und-big-sur-akti/) (for making the XCPM patch for Ivy Bridge)
