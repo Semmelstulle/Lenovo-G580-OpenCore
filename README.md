@@ -13,7 +13,7 @@ iGPU | Intel HD 4000
 dGPU | NVIDIA GT 630M (disabled in BIOS)
 RAM | 8 GB DDR3
 WiFi | Broadcom BCM4313 (unsupported)
-Software | macOS 11.5.1 Big Sur
+macOS | Big Sur
 
 ## What works?
 
