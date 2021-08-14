@@ -12,7 +12,7 @@ CPU | Intel Core i5-3210M
 iGPU | Intel HD 4000
 dGPU | NVIDIA GT 630M (disabled in BIOS)
 RAM | 8 GB DDR3
-WiFi | Broadcom BCM4313 (unsupported)
+WiFi | AzureWare CE-123H (BCM94352HMB)
 macOS | Big Sur
 
 ## What works?
@@ -77,7 +77,7 @@ You should also put in your ethernet adapter's MAC address into the ROM section.
 
 ## Replacing the WiFi card
 
-To replace the stock unsupported WiFi card, you first have to remove the whitelist from the bios. Here's a tutorial: 
+To replace the stock unsupported BCM4313 WiFi card, you first have to remove the whitelist from the bios. Here's a tutorial: 
 
 [![IMAGE ALT TEXT](http://img.youtube.com/vi/BItGfpyyHnI/0.jpg)](http://www.youtube.com/watch?v=BItGfpyyHnI "Video Title")
 
