@@ -98,3 +98,4 @@ Thanks to:
 * USBToolBox (for their excellent USB mapping tool)
 * [PewDieMelon](https://github.com/PewDieMelon) (for being our tester)
 * [5T33Z0](https://www.hackintosh-forum.de/forum/thread/53009-guide-x86platformplugin-xcpm-f%C3%BCr-ivy-bridge-cpus-unter-catalina-und-big-sur-akti/) (for re-enabling XCPM on Ivy Bridge)
+* [0xFireWolf](https://github.com/0xFireWolf) (for the Realtek SD card kext)
