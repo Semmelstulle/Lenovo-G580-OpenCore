@@ -83,6 +83,9 @@ To replace the stock unsupported BCM4313 WiFi card, you first have to remove the
 
 Recommended WiFi cards: Azureware AW-CE123H, Dell DW1550, Lenovo Lite-On WCBN606BH
 
+## macOS Monterey
+
+If you want to run macOS Monterey, change the SMBIOS in the "SystemProductName" section of the config to MacBookPro12,1 and follow this tutorial to add back HD 4000 graphics: https://github.com/dortania/OpenCore-Legacy-Patcher/issues/348
 
 ## Credits
 
@@ -93,4 +96,4 @@ Thanks to:
 * dortania (helping with their guide)
 * USBToolBox (for their excellent USB mapping tool)
 * [PewDieMelon](https://github.com/PewDieMelon) (for being our tester)
-* [5T33Z0](https://www.hackintosh-forum.de/forum/thread/53009-guide-x86platformplugin-xcpm-f%C3%BCr-ivy-bridge-cpus-unter-catalina-und-big-sur-akti/) (for making the XCPM patch for Ivy Bridge)
+* [5T33Z0](https://www.hackintosh-forum.de/forum/thread/53009-guide-x86platformplugin-xcpm-f%C3%BCr-ivy-bridge-cpus-unter-catalina-und-big-sur-akti/) (for re-enabling XCPM on Ivy Bridge)
