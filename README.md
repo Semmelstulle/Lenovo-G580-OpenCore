@@ -29,10 +29,11 @@ macOS | Big Sur
 - Function Keys
 - Bluetooth
 - Power Management
+- SD card slot
 
 ## What doesn't work?
 
-- SD card slot
+- no known issues
 
 ## BIOS settings
 
