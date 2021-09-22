@@ -1049,7 +1049,7 @@
 			<key>ScanPolicy</key>
 			<integer>0</integer>
 			<key>SecureBootModel</key>
-			<string>j137</string>
+			<string>Disabled</string>
 			<key>Vault</key>
 			<string>Optional</string>
 		</dict>
@@ -1100,7 +1100,7 @@
 				<key>boot-args</key>
 				<string>keepsyms=1 debug=0x100 -v</string>
 				<key>csr-active-config</key>
-				<data>AAAAAA==</data>
+				<data>Aw4AAA==</data>
 				<key>run-efi-updater</key>
 				<string>No</string>
 				<key>ForceDisplayRotationInEFI</key>
@@ -1182,7 +1182,7 @@
 			<key>SystemMemoryStatus</key>
 			<string>Auto</string>
 			<key>SystemProductName</key>
-			<string>MacBookPro11,1</string>
+			<string>MacBookPro12,1</string>
 			<key>SystemSerialNumber</key>
 			<string>ENTER HERE</string>
 			<key>SystemUUID</key>
