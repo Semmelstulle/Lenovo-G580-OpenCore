@@ -82,11 +82,18 @@ To replace the stock unsupported BCM4313 WiFi card, you first have to remove the
 
 [![IMAGE ALT TEXT](http://img.youtube.com/vi/BItGfpyyHnI/0.jpg)](http://www.youtube.com/watch?v=BItGfpyyHnI "Video Title")
 
-Recommended WiFi cards: Azureware AW-CE123H, Dell DW1550, Lenovo Lite-On WCBN606BH
+Recommended WiFi cards: Azureware AW-CE123H, Dell DW1550
 
 ## macOS Monterey
 
-If you want to run macOS Monterey, change the SMBIOS in the "SystemProductName" section of the config to MacBookPro12,1 and follow this tutorial to add back HD 4000 graphics: https://github.com/dortania/OpenCore-Legacy-Patcher/issues/348
+If you want to run Monterey, you have to set the following:
+
+| Quirk | Value to set | Where To Find |
+| -- | -- | -- |
+| csr-active-config | 030A0000 | Under NVRAM/7C436110-AB2A-4BBB-A880-FE41995C9F82 |
+
+After installing Monterey, you need to install the Post-Install Volume Patch using [OpenCore Legacy Patcher](https://github.com/dortania/OpenCore-Legacy-Patcher/releases) to patch the NVIDIA graphics kexts back to Monterey. Keep in mind that you'll lose the ability to apply Delta OTA updates after doing this.
+The patch needs to be reapplied after every macOS update.
 
 ## Credits
 
