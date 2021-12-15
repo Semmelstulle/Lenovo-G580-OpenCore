@@ -573,7 +573,7 @@
 				<key>Arch</key>
 				<string>Any</string>
 				<key>MaxKernel</key>
-				<string></string>
+				<string>19.99.99</string>
 				<key>MinKernel</key>
 				<string></string>
 				<key>PlistPath</key>
