@@ -86,13 +86,11 @@ Recommended WiFi cards: Azureware AW-CE123H, Dell DW1550
 
 ## macOS Monterey
 
-If you want to run Monterey, you have to set the following:
+If you want to run Monterey, you have to weaken SIP by going into:
 
-| Quirk | Value to set | Where To Find |
-| -- | -- | -- |
-| csr-active-config | 030A0000 | Under NVRAM/7C436110-AB2A-4BBB-A880-FE41995C9F82 |
+`EFI/OC/config.plist > NVRAM > 7C436110-AB2A-4BBB-A880-FE41995C9F82` and changing `csr-active-config` from `00000000` to `030A0000`
 
-After installing Monterey, you need to install the Post-Install Volume Patch using [OpenCore Legacy Patcher](https://github.com/dortania/OpenCore-Legacy-Patcher/releases) to patch the HD 4000 graphics kexts back to Monterey. Keep in mind that you'll lose the ability to apply Delta OTA updates after doing this.
+After installing Monterey, you need to install the Post-Install Volume Patch using [OpenCore Legacy Patcher](https://github.com/dortania/OpenCore-Legacy-Patcher/releases) to patch the HD 4000 graphics kexts back to Monterey. Keep in mind that you'll lose System Integrity Protection and the ability to apply Delta OTA updates after doing this.
 The patch needs to be reapplied after every macOS update.
 
 ## Credits
