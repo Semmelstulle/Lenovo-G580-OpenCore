@@ -1,5 +1,7 @@
 # Lenovo-G580-OpenCore
 
+### This repo is a public archive now and will not be worked on any longer. The latest version supported will be Monterey
+
 ### Before you give this EFI a try, make sure you read [this](#Generating-your-own-serial-and-Editing-ROM)!
 
 This repo includes an OpenCore EFI for the G580 (Model Type 2189). For anyone having a diffrent model of this machine, we like to hear feedback in the issues page. It will **NOT** work on any of the Pentium models unless you upgrade the CPU to an Ivy Bridge i3 or higher (iX-3xxxM)
